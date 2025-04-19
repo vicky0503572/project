@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f0e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.new-task-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px ;
+    width: 700px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+ 
+}
+
+.new-task-form input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: white;
+    
+}
+
+.new-task-form input#due-date {
+    width: 16%;
+    align-items: left;
+    display: flex;
+    background-color: #ffffff;
+    color: black;
+}
+
+.new-task-form label {
+    display: block;
+    font-weight:550;
+    text-align: left;
+    margin: 12px 0 4px;
+    color: black;
+}
+
+.new-task-form select option{
+    background-color: white;
+    color: black;
+}
+
+
+.new-task-form select {
+    display: block;
+    align-items: left;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cancel-btn {
+    padding: 10px;
+    background-color: #bd916f;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    opacity: 0.9;
+}
+
+.create-task-btn {
+    padding: 10px;
+    background-color: #bd916f;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-task-btn:hover {
+    opacity: 0.9;
+}
+
+.info-text {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 10px 0 10px;
+    
+
+}
+
+.new-task-form select {
+    padding: 8px;
+    background-color: white;
+    border-radius: 7px;
+    width: 50%;
+    color: black;
+  }
+  
+.new-task-form input#due-date {
+    width: 50%;
+}
+
+.new-task-form input {
+    color: black;
+}
+
+
+  
