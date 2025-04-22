@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Task Management</title>
+        <link rel="stylesheet" href="TaskManagement.css" />
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <a href="">
+                    <button class="back-btn">Go Back</button>
+                </a>
+                <h1>Task Management</h1>
+                <div class="profile-container">
+                    <a href="notification.html" class="notification-btn">
+                        <button><img src="notification.png" alt="Notifications" /></button>
+                      </a>
+                    <a href="profile.html" class="profile-btn">
+                        <button><img src="user.png" alt="Profile" /></button>
+                    </a>
+                </div>
+            </header>
+
+            <div class="main-content">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                  <a href="TaskManagement.html">
+                    <button class="task-management-btn">Task Management</button>
+                  </a>
+                  <a href="Collaboration.html">
+                    <button class="friends-btn">Friends</button>
+                  </a>
+                  <a href="profile.html">
+                    <button class="settings-btn">Settings</button>
+                  </a>
+                </aside>
+
+                <section class="dashboard">
+                    <div class="search-bar">
+                        <form class="search-form">
+                            <label for="search">Search</label>
+                            <input type="text" id="search-task" placeholder="Enter task name" required>
+                        </form>
+                        <button type="search" class="search-btn">Enter</button>
+                    </div>
+
+                    <div class="overdue-tasks-header">
+                        <div class="overdue-task-container">
+                            <h2>Overdue Tasks</h2>
+                            <a href="task.html" class="addTask-btn">
+                                <button><img src="add.png" alt="addTask" /></button>
+                            </a>
+                        </div>
+                        <ul id="taskList"></ul>
+                    </div>
+
+                    <div class="pending-tasks-header">
+                        <div class="pending-task-container">
+                            <h2>Pending Tasks</h2>
+                            <ul id="taskList"></ul>
+                        </div>
+                    </div>
+
+                    <div class="completed-tasks-header">
+                        <div class="completed-task-container">
+                            <h2>Completed Tasks</h2>
+                            <ul id="taskList"></ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
