@@ -56,8 +56,10 @@ function Login() {
 
         <button className="btn login" type="submit">Login</button>
         <div className="or">OR</div>
-        <Link to="/signup" className="btn signup">Sign Up</Link>
-        <Link to="/forgot-password" className="btn forgot">Forgot Password</Link>
+        <div className="bot-btn">
+          <Link to="/signup" className="btn signup">Create Account</Link>
+          <Link to="/forgot-password" className="btn forgot">Forgot Password</Link>
+          </div>
       </form>
     </div>
   );

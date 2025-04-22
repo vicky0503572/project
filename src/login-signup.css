@@ -8,14 +8,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: white;
   }
   
   .login-container {
     text-align: center;
-    background-color: #f4f0e6;
+    background-color: #f7ecda;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(243, 240, 240, 0.934);
+    box-shadow: 0 2px 6px ;
     width: 320px;
   }
   
@@ -59,8 +60,7 @@ body {
   }
   
   .btn {
-    flex: 1;
-    padding: 10px;
+    padding: 15px;
     background-color: #b4896c;
     color: white;
     border: none;
@@ -79,7 +79,7 @@ body {
   }
   
   .signup {
-    background-color: #8e6f57;
+    background-color: #b4896c;
   }
   
   .back-btn {
@@ -99,7 +99,7 @@ body {
   
   .info-text {
     font-size: 0.9rem;
-    color: #444;
+    color: #55524e;
     text-align: left;
     margin: 10px 0 20px;
   }
@@ -110,7 +110,16 @@ body {
   
   .login-form input {
     margin-bottom: 16px;
+    background-color: white;
+    color: black;
   }
+
+  .bot-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
 
   
   

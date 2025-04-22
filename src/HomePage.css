@@ -19,8 +19,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
-    background-color: #c0b283;
-    border-bottom: 5px outset #b7b7b7;
+    background-color: #d9bbb0;
+    border-bottom: 5px outset #f5e3e3;
     
   }
 
@@ -52,7 +52,7 @@ body {
   
   .sidebar {
     width: 180px;
-    background-color: #d9d9d9;
+    background-color: #e2d9cd;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ body {
   }
   
   .sidebar button {
-    background-color: #b7b7b7;
+    background-color: #d3c5b3;
     color: black;
     border: none;
     border-radius: 15px;
@@ -83,7 +83,7 @@ body {
   
   .task-header,
   .activities-main-content {
-    background-color: #d9d9d9;
+    background-color: #e2d9cd;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 6px ;
@@ -91,11 +91,12 @@ body {
   
   .task-container,
   .activities-container {
-    background-color: #b7b7b7;
+    background-color: #c0b7ab;
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
   }
   
   .addTask-btn img {
@@ -112,7 +113,7 @@ body {
   }
 
   .app {
-    color: #726845;
+    color: #706760;
     text-shadow: 0 0.3px 0.6px;
   }
   
